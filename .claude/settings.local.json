@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(npm --version)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell($env:PATH = \"C:\\\\Program Files\\\\nodejs;\" + $env:PATH; node --version; npm --version)",
+      "mcp__Claude_Preview__preview_start",
+      "mcp__Claude_in_Chrome__browser_batch",
+      "mcp__Claude_in_Chrome__javascript_tool",
+      "Bash(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\shanmukha\\\\OneDrive\\\\Desktop\\\\claude-design\\\\.claude\")",
+      "Bash(Out-Null)",
+      "Bash(Write-Host \"done\")",
+      "WebFetch(domain:unsplash.com)"
+    ]
+  }
+}
